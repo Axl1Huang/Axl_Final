@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <link herf="fpcss.css" rel="stylesheet" type="text/css"/>
+        <script src="fpjs.js"></script>
+        <div><strong>Tasks</strong></div><br>
+        <div>Add Tasks</div><br>
+        <div>Click the card in the TODO-section to move it into the DONE-section</div><br>
+        <div>Click the card in the DONE-section to move it into the TODO-section</div>
+    </head>
+    <body>
+        <input id="text_input" placeholder="task name"/>
+        <button onclick="savebutton()">SAVE</button>
+        <h3>TODO(<span id="todonum"></span>)</h3>
+        <div id="todotext"></div>
+        <h4>DONE(<span id="donenum"></span>)</h4>
+        <div id="donetext"></div>
+    </body>
+</html>
